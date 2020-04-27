@@ -1,0 +1,347 @@
+@media screen and (max-width:768px){
+
+.fondo,
+.fondo img,
+.frase{
+        display: none;
+}
+.marca{
+    width: 100vw; 
+    height: 7vh;
+    background:#24292E;
+    font-size: 100%;
+    line-height: 20px;
+    -webkit-text-stroke: 0px;
+    position: absolute;
+    top: 0;
+    left: 0px; 
+}
+.marca img{
+    height: 60%;
+}
+/* --------------------------------------------- */
+.section{
+    width: 100vw;
+    height: 93vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section-caja{
+    height: 70%;
+    width:60%;
+    background-color:#FAFBFC; 
+    border: 1px solid #D0D2D3;
+    border-radius: 20px;
+    margin-top: 99px; 
+}
+.section-titulo{
+    font-weight: 900;
+    margin-bottom: 25px; 
+    font-size: 25px;
+    font-style: Bold;
+}
+.texto{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+}
+input{
+    width: 44vw;
+    height: 45px;
+    margin-right: 12px;
+    margin-bottom: 6%;
+}
+.section-items-pass{
+    height: 7vw;
+    font-weight: 600;
+    color: #24292E;
+    font-weight: 600; 
+    position: relative;
+}
+.lock{
+    position: absolute;
+    right: 6%;
+    top: 60px; 
+}
+span a{
+    height: 50px;
+    width: 340px;
+    margin: 45px 0px 5px 0px;
+    display: block;
+  
+    font-size: 12px;
+    color: #287AE6;
+    text-decoration: none;
+    font-weight: 700;
+}
+.login-1{
+    background: #287AE6;
+    /* #28A745; */
+    border: #287AE6;
+    border-radius: 10px;
+   
+    height: 6.5vh;
+    width: 340px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FAFBFC;
+}
+.login-2{
+    background: #F3F3F3;
+ 
+    border: 1px solid #D0D2D3;
+    border-radius: 10px;
+   
+    height: 6.5vh;
+    width: 340px;
+    margin-top: 15px;
+  
+    color: #24292E;
+    font-weight: 700;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.login-2 img{
+    margin: 10px;
+ }
+}
+/* ------------------------------------------------- */
+/* ------------------------------------------------ */
+
+@media screen and (max-width:1024px){
+    .fondo,
+    .fondo img,
+    .frase{
+            display: none;
+}
+    .marca{
+        width: 100vw; 
+        height: 7vh;
+        background:#24292E;
+        font-size: 25px;
+        line-height: 20px;
+        -webkit-text-stroke: 0px;
+        position: absolute;
+        top: 0;
+        left: 0px; 
+ }
+    .marca img{
+        height: 60%;
+    }
+    /* --------------------------------------------- */
+    .section{
+        width: 100vw;
+        height: 93vh;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .section-caja{
+        height: 78%;
+        width:50%;
+        background-color:#FAFBFC; 
+        border: 1px solid #D0D2D3;
+        border-radius: 20px;
+        margin-top: 180px; 
+    }
+    .section-titulo{
+        font-weight: 900;
+        margin-bottom: 70px; 
+        font-size: 25px;
+        font-style: Bold;
+    }
+    .texto{
+        display: block;
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-right: 150px;
+    }
+    input{
+        width: 44vw;
+        height: 45px;
+        margin-right: 12px;
+        margin-bottom: 6%;
+    }
+    .section-items-pass{
+        height: 7vw;
+        font-weight: 600;
+        color: #24292E;
+        font-weight: 600; 
+        position: relative;
+    }
+    .lock{
+        position: absolute;
+        right: 6%;
+        bottom: -5px;  
+    }
+    span a{
+        height: 50px;
+        width: 340px;
+        margin: 45px 0px 5px 0px;
+        display: block;
+      
+        font-size: 12px;
+        color: #287AE6;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    .login-1{
+        background: #287AE6;
+        /* #28A745; */
+        border: #287AE6;
+        border-radius: 10px;
+       
+        height: 6.5vh;
+        width: 44vw;
+        font-size: 15px;
+        font-weight: 700;
+        color: #FAFBFC;
+    }
+    .login-2{
+        background: #F3F3F3;
+     
+        border: 1px solid #D0D2D3;
+        border-radius: 10px;
+       
+        height: 6.5vh;
+        width: 44vw;
+        margin-top: 15px;
+      
+        color: #24292E;
+        font-weight: 700;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+    }
+    .login-2 img{
+        margin: 10px;
+    }
+}   
+
+
+@media screen and (max-width:480px){
+ 
+    .fondo,
+    .fondo img,
+    .frase{
+            display: none;
+}
+    .marca{
+        width: 480px; 
+        height: 7vh;
+        background:#24292E;
+        font-size: 10px;
+        line-height: 10px;
+        -webkit-text-stroke: 0px;
+        position: absolute;
+        top: 0;
+        left: 0px; 
+ }
+    .marca img{
+        height: 60%;
+    }
+    /* --------------------------------------------- */
+    .section{
+        width: 480px;
+        height: 93vh;
+    
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        
+    }
+    .section-caja{
+        height:430px;
+        width: 290px;
+        background-color:#FAFBFC; 
+        border: 1px solid #D0D2D3;
+        border-radius: 20px;
+        margin-top: 75px; 
+        margin-left: 5px;
+        
+    }
+    .section-titulo{
+        font-weight: 900;
+        margin-bottom: 30px; 
+        font-size: 20px;
+        font-style: Bold;
+    }
+    .texto{
+        display: block;
+        font-size: 11px;
+        margin-bottom: 10px;
+        margin-right: 150px;
+        
+    }
+    input{
+        width: 250px;
+        height: 45px;
+        margin-right: 12px;
+        margin-bottom: 6%;
+    }
+    .section-items-pass{
+        height: 7vw;
+        font-weight: 600;
+        color: #24292E;
+        font-weight: 600; 
+        position: relative;
+    }
+    .lock{
+        position: absolute;
+        right: 8%;
+        bottom: -33px;  
+    }
+    span a{
+        height: 50px;
+        width: 340px;
+        margin: 50px 0px 0px 75px;
+        display: block;
+      
+        font-size: 12px;
+        color: #287AE6;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    .login-1{
+        background: #287AE6;
+        /* #28A745; */
+        border: #287AE6;
+        border-radius: 10px;
+       
+        height: 9vh;
+        width: 250px;
+        font-size: 15px;
+        font-weight: 700;
+        color: #FAFBFC;
+        margin-left: 85px;
+    }
+    .login-2{
+        background: #F3F3F3;
+     
+        border: 1px solid #D0D2D3;
+        border-radius: 10px;
+       
+        height: 9vh;
+        width: 250px;
+        margin-top: 10px;
+      
+        color: #24292E;
+        font-weight: 700;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+    }
+    .login-2 img{
+        margin: 5px;
+    }
+}   

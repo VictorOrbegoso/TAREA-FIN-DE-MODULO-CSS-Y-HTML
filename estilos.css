@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif; */
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+body {
+    display: flex;
+}
+.fondo {
+    justify-content: flex-start;
+    height: 100vh;
+    width: 69vw;
+    position: relative;
+    background: linear-gradient(#24292E, #24292E);
+}
+.marca {
+    width: 17%;
+    height: 10%;
+    color: #FAFBFC;
+    font-size: 25px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    -webkit-text-stroke: .5px black;
+}
+.marca img {
+    margin: 0px 9px 0px 5px;
+}
+.fondo img {
+    opacity: 0.5;
+    width: inherit;
+    height: inherit;
+}
+
+.frase {
+    width: 34%;
+    height: 33%;
+    color: #FAFBFC;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    top: 33.2%;
+    left: 18%;
+}
+
+/* ----------------------------------------- */
+
+/*------------FORMULARIO--------- */
+
+.section {
+    justify-content: flex-end;
+    width: 31vw;
+    height: 100vh;
+}
+
+.section-caja {
+    height: inherit;
+    width: inherit;
+    background-color: #FAFBFC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-titulo {
+    font-weight: 900;
+    margin-bottom: 27px;
+    font-size: 25px;
+    font-style: Bold;
+}
+
+.section-items {
+    height: 100px;
+    font-weight: 600;
+    color: #24292E;
+}
+
+.texto {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 24.8vw;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #D1D5DA;
+    padding-left: 15px;
+    background: transparent;
+}
+
+.section-items-pass {
+    font-weight: 600;
+    color: #24292E;
+    font-weight: 600;
+    position: relative;
+}
+
+.section-items-pass input {
+    padding-right: 50px;
+}
+
+.lock {
+    position: absolute;
+    right: 5%;
+    bottom: 17%;
+}
+
+span a {
+    height: 40px;
+    width: 340px;
+    margin: 10px 0px 5px 0px;
+    display: block;
+    font-size: 12px;
+    color: #287AE6;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.login-1 {
+    background: #287AE6;
+    /* #28A745; */
+    border: #287AE6;
+    border-radius: 10px;
+    height: 8.5vh;
+    width: 340px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FAFBFC;
+}
+
+.login-2 {
+    background: #F3F3F3;
+    border: 1px solid #D0D2D3;
+    border-radius: 10px;
+    height: 8.5vh;
+    width: 340px;
+    margin-top: 15px;
+    color: #24292E;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-2 img {
+    margin: 10px;
+    /* ---------ANIMACIONES----- */
+}
+
+input:focus {
+    outline: 0;
+}
+
+.login-2:focus {
+    outline: 0;
+}
+
+.login-1:hover {
+    opacity: 0.9;
+}
+
+.login-2:hover {
+    opacity: 0.9;
+}
+ 
